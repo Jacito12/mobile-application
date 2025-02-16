@@ -1,6 +1,8 @@
-# Welcome to your Expo app 👋
+# Welcome to the Expo-Based Property Explorer App 🏠
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This project is a **modern mobile application** built with [Expo](https://expo.dev) and [React Native](https://reactnative.dev). It serves as a **Property Explorer App**, designed to help users browse properties, view details, and manage their profiles seamlessly. The app features **tab-based navigation**, **dynamic routing**, and a clean, modular architecture for easy scalability.
+
+---
 
 ## Get started
 
@@ -35,16 +37,32 @@ npm run reset-project
 
 This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+## **Key Features**
 
-To learn more about developing your project with Expo, look at the following resources:
+- **Tab Navigation**: Intuitive tab-based navigation for exploring properties, viewing profiles, and more.
+- **Dynamic Property Details**: Each property has a unique page powered by dynamic routing (e.g., `/properties/123`).
+- **Authentication**: A dedicated sign-in screen (`sign-in.tsx`) for user authentication.
+- **File-Based Routing**: The app uses Expo's file-based routing system, making navigation and organization straightforward.
+- **Reusable Layouts**: Shared layouts (e.g., `layout.tsx`) for consistent design across pages.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## **Why This Project?**
 
-Join our community of developers creating universal apps.
+This project is designed to demonstrate best practices for building scalable and maintainable mobile apps with Expo and React Native. It includes:
+- A clear folder structure for easy navigation.
+- Dynamic routing for handling property details.
+- Reusable components and layouts to minimize code duplication.
+- A focus on user experience with smooth navigation and intuitive design.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## **Getting Started**
+
+To get started with this project, follow these steps:
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
