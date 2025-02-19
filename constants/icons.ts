@@ -33,7 +33,8 @@ import location from "@/assets/icons/location.png";
 import edit from "@/assets/icons/edit.png";
 
 export default {
-  google, home,
+  google, 
+  home,
   search,
   person,
   bell,
